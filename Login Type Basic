@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Era</title>
+	<style>
+		body {
+			background-color: #000000;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			color: #999;
+		}
+		form {
+			margin: 50px auto;
+			width: 300px;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #666;
+		}
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			border: none;
+			background-color:#cfcfcf
+;
+			border-radius: 5px;
+			margin-bottom: 20px;
+		}
+		input[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<h1>Project Era</h1>
+	<form action="" method="post">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" placeholder="Please Enter your username here" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="Type your password here" required>
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>
